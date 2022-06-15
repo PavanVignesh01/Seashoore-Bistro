@@ -301,8 +301,9 @@ hr {
 }
 
 @media only screen and (max-width: 768px){
-    .title_newsletter {
-    font-size: 25px;
+
+.title_newsletter {
+    font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     font-weight:600;
     color: #613818;
@@ -312,7 +313,7 @@ hr {
 }
 
 .desc_newsletter{
-    font-size: 15px;
+    font-size: 10px;
     font-family: 'Open Sans', sans-serif;
     font-weight:300;
     color: #613818;
@@ -324,7 +325,7 @@ hr {
 
 .newsletter__form form {
 	position: relative;
-	width: 50%;
+	width: 80%;
 	overflow: hidden;
     display: block;
     margin-left: auto;
