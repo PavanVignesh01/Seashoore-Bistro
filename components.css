@@ -38,6 +38,8 @@
 @media only screen and (max-width: 768px) {
 	.nav {
 		position: relative;
+		padding-left: 5px;
+		padding-right: 5px;
 		/* overflow-x: scroll; */
 	}
 	.nav__icon {
@@ -266,6 +268,8 @@ footer {
 
 /* Form Styles */
 
+
+
 .booking_form{
     padding-top: 20px;
     padding-left: 20px;
@@ -293,7 +297,6 @@ footer {
 
 .form_contact {
 display: grid;
-grid-template-areas: "siva";
 grid-gap: 13px;
 background-color: #f9ea8f;
 border-radius: 50px;
@@ -303,6 +306,123 @@ grid-auto-rows: auto;
 .input_form {
 text-align: center;
 }
+
+.input_form input{
+        border-style: solid;
+        border-width: 2px;
+        height: 4rem;
+        border-radius: 0.875rem;
+        width: 50%;
+        padding-top: 0.3rem;
+        padding-right: 1.25rem;
+        padding-bottom: 0.3rem;
+        padding-left: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        color: #E2DFD2;
+        background-color: #fff;
+        border-color: #f2e4df;
+}
+
+.input_form_message input{
+        border-style: solid;
+        border-width: 2px;
+        height: 10rem;
+        border-radius: 0.875rem;
+        width: 50%;
+        padding-top: 0.3rem;
+        padding-right: 1.25rem;
+        padding-bottom: 0.3rem;
+        padding-left: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        color: #7a7879;
+        background-color: #fff;
+        border-color: #f2e4df;
+}
+
+
+.form_contact {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .form_contact_padding{
+        padding: 20px;
+    }
+    .title_contact_form {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    color: #613818;
+    padding: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.desc_contact_title {
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    color: #613818;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.form_contact {
+display: grid;
+grid-gap: 5px;
+background-color: #f9ea8f;
+border-radius: 50px;
+grid-auto-rows: auto;
+}
+
+.input_form {
+    text-align: center;
+}
+.form_contact button[type='submit'] {
+    
+            font-size: 20px;
+            width: 120px;
+}
+    .input_form input{
+        border-style: solid;
+        border-width: 2px;
+        height: 4rem;
+        border-radius: 0.875rem;
+        width: 80%;
+        padding-top: 0.3rem;
+        padding-right: 1.25rem;
+        padding-bottom: 0.3rem;
+        padding-left: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        color: #E2DFD2;
+        background-color: #fff;
+        border-color: #f2e4df;
+}
+
+.input_form_message input{
+        border-style: solid;
+        border-width: 2px;
+        height: 10rem;
+        border-radius: 0.875rem;
+        width: 80%;
+        padding-top: 0.3rem;
+        padding-right: 1.25rem;
+        padding-bottom: 0.3rem;
+        padding-left: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        color: #7a7879;
+        background-color: #fff;
+        border-color: #f2e4df;
+}
+}
+
 
 
 /* Form Styles */
@@ -376,69 +496,4 @@ text-align: center;
 	}
 }
 
-.input_form input{
-        border-style: solid;
-        border-width: 2px;
-        height: 4rem;
-        border-radius: 0.875rem;
-        width: 50%;
-        padding-top: 0.3rem;
-        padding-right: 1.25rem;
-        padding-bottom: 0.3rem;
-        padding-left: 1.25rem;
-        font-size: 1.25rem;
-        line-height: 1.5rem;
-        color: #E2DFD2;
-        background-color: #fff;
-        border-color: #f2e4df;
-}
-
-.input_form_message input{
-        border-style: solid;
-        border-width: 2px;
-        height: 10rem;
-        border-radius: 0.875rem;
-        width: 50%;
-        padding-top: 0.3rem;
-        padding-right: 1.25rem;
-        padding-bottom: 0.3rem;
-        padding-left: 1.25rem;
-        font-size: 1.25rem;
-        line-height: 1.5rem;
-        color: #7a7879;
-        background-color: #fff;
-        border-color: #f2e4df;
-}
-
-.input_form_message {
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.form_contact button[type='submit'] {
-	        padding: 1rem 2rem 1rem;
-            display: inline-flex;
-            font-family: 'Open Sans', sans-serif;
-            font-size: 2rem;
-            color: #fff;
-            background: #006400;
-            letter-spacing: 0.3px;
-            font-weight: normal;
-            border-radius: 0.625rem;
-            text-align: center;
-            justify-content: center;
-            line-height: 1rem;
-            position: relative;
-            white-space: nowrap;
-            overflow: hidden;
-            z-index: 1;
-            position: relative;
-            transition: all .5s ease!important;
-            width: 10%;
-}
-
-.form_contact {
-    text-align: center;
-    padding-bottom: 10px;
-}
 
